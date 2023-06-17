@@ -1,6 +1,6 @@
-# My Chuck Norris App 🤛
+# Chuck Norris App 🤛
 
-# Phase 1 Project Guidelines 
+## Phase 1 Project Guidelines 
 
 ## Learning Goals
 

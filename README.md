@@ -2,6 +2,9 @@
 
 ## Phase 1 Project Guidelines 
 
+## Add Events - link
+![Alt text](image.png)
+
 ## Learning Goals
 
 - Design and architect features across a frontend

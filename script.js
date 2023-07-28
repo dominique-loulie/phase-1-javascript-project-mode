@@ -2,6 +2,7 @@ console.clear();
 
 const displayJoke = document.getElementById("display-joke");
 const category = document.getElementById("category");
+
 let chosenCategory = `dev`;
 
 category.addEventListener("change", () => {
@@ -53,4 +54,8 @@ async function fetchJoke() {
 		displayJoke.textContent = errorMessage;
 		console.error(error);
 	}
+	  
 }
+
+
+

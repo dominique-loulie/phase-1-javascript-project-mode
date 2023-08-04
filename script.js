@@ -54,8 +54,10 @@ async function fetchJoke() {
 		displayJoke.textContent = errorMessage;
 		console.error(error);
 	}
-	  
-}
+
+	};
+
+
 
 
 

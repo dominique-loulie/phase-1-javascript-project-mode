@@ -1,35 +1,56 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>ChucK Norris</title>
+  <!-- Project name -->
+  <title>Chuck Norris App</title>
 
-<link rel="stylesheet" href="style.css">
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="style.css">
 
-<script src="script.js" defer></script>
+  <!-- Link to external JavaScript file -->
+  <script src="script.js" defer></script>
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"/>
-
+  <!-- Link to Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"/>
 </head>
+
 <body>
+  <!-- Main container i.e. image & display jokes -->
+  <div id="container" class="theme-switch-wrapper">
 
-    <div id="container" class="theme-switch-wrapper">
-     
-    <label for="category">Select your category</label>
-    <select name="category" id="category" disabled></select>
-   
-    <button onclick="fetchJoke()">Get a new joke!👊</button>
-    
-    <h3 id="title"> The Wisdom of Chuck Norris! <a href="JavaScript:void(0)" onClick="var greet='Chuck Norris says Hi 👋'; 
-        alert(greet);">🤛</a>
-    </h3>
-    
-    <img src="Chuck-norris.webp" alt="Avatar" style="width: 100%;"/>
+  <!-- Category selection -->
+  <label for="category">Select your category:</label>
+  <select name="category" id="category"></select>
 
-    <p id="display-joke">Chuck Norris once made an onion cry!</p> 
+  <!-- 2 Buttons for fetching joke & changing colour -->
+  <button onclick="fetchJoke()">Get a new joke 👊</button>
+  <button onclick="changeColor()">Change Colour 🖌️</button>
+
+  <!-- Title with Chuck Norris greeting -->
+  <h3 id="title"> The Wisdom of Chuck Norris! 🤛</h3>
+
+  <!-- Chuck Norris image -->
+  <img src="Chuck-norris.webp" alt="Avatar" style="width: 100%;"/>
+
+  <!-- Displayed joke -->
+  <p id="display-joke">Chuck Norris once made an onion cry!</p> 
+
+  <!-- Like button -->
+    <div class="like-button">
+      <button id="likeButton" class="like">
+        <span class="icon">Like 👍 </span>
+        <span id="likeCount" class="count">0</span>
+      </button>
+    </div>
+  </div>
 
 </body>
+
 </html>
+

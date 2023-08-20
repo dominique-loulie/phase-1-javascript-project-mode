@@ -1,9 +1,9 @@
 # Chuck Norris App 🤛
 
-## Phase 1 Project Guidelines 
+## Add colour and likes events !
+![Alt text](final.JPG)
 
-## Add Events - link
-![Alt text](image.png)
+## Phase 1 Project Guidelines 
 
 ## Learning Goals
 
